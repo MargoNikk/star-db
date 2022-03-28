@@ -1,0 +1,94 @@
+@keyframes ldio-denjvk6nmu5 {
+  0% { transform: rotate(0) }
+  100% { transform: rotate(360deg) }
+}
+
+.ldio-denjvk6nmu5 div { box-sizing: border-box!important }
+.ldio-denjvk6nmu5 > div {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  top: 9.5px;
+  left: 9.5px;
+  border-radius: 50%;
+  border: 7px solid #000;
+  border-color: #0d7487 transparent #0d7487 transparent;
+  animation: ldio-denjvk6nmu5 2s linear infinite;
+}
+
+.ldio-denjvk6nmu5 > div:nth-child(2), .ldio-denjvk6nmu5 > div:nth-child(4) {
+  width: 65px;
+  height: 65px;
+  top: 17.5px;
+  left: 17.5px;
+  animation: ldio-denjvk6nmu5 2s linear infinite reverse;
+}
+.ldio-denjvk6nmu5 > div:nth-child(2) {
+  border-color: transparent #22d9ab transparent #22d9ab
+}
+.ldio-denjvk6nmu5 > div:nth-child(3) { border-color: transparent }
+.ldio-denjvk6nmu5 > div:nth-child(3) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-denjvk6nmu5 > div:nth-child(3) div:before, .ldio-denjvk6nmu5 > div:nth-child(3) div:after { 
+  content: "";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: -7px;
+  left: 30px;
+  background: #0d7487;
+  border-radius: 50%;
+  box-shadow: 0 74px 0 0 #0d7487;
+}
+.ldio-denjvk6nmu5 > div:nth-child(3) div:after {
+  left: -7px;
+  top: 30px;
+  box-shadow: 74px 0 0 0 #0d7487;
+}
+
+.ldio-denjvk6nmu5 > div:nth-child(4) { border-color: transparent; }
+.ldio-denjvk6nmu5 > div:nth-child(4) div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+}
+.ldio-denjvk6nmu5 > div:nth-child(4) div:before, .ldio-denjvk6nmu5 > div:nth-child(4) div:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: -7px;
+  left: 22px;
+  background: #22d9ab;
+  border-radius: 50%;
+  box-shadow: 0 58px 0 0 #22d9ab;
+}
+.ldio-denjvk6nmu5 > div:nth-child(4) div:after {
+  left: -7px;
+  top: 22px;
+  box-shadow: 58px 0 0 0 #22d9ab;
+}
+.loadingio-spinner-double-ring-3nmub1b8qla {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-denjvk6nmu5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.7);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-denjvk6nmu5 div { box-sizing: content-box; }
